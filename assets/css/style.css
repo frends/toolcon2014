@@ -235,7 +235,7 @@ section {
     position: absolute;
     content:attr(data-info);
     top:-10px;
-    right:-10px;
+    right:5px;
     display: inline-block;
     padding:5px;
     -webkit-border-radius: 6px;
@@ -617,10 +617,9 @@ footer p {
     }
 
     .section-speakers ul.speakers li:before {
-        right:auto;
-        left:60%;
         padding:3px;
         font-size: 14px;
+        right:0;
     }
 
     .section-speakers ul.speakers li .spearks-image .speaker-name {
@@ -731,16 +730,16 @@ footer p {
         padding:60px 0;
     }
 
-    .introduction .masthead-branding {
-        display: none;
-    }
-
-    h2 {
-        padding
+    .introduction h1 {
+        font-size: 38px;
     }
 
     .introduction h1 strong {
         font-size:16px;
+    }
+
+    .introduction .masthead-branding {
+        display: none;
     }
 
     .introduction h2 {
