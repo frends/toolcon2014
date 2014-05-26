@@ -194,6 +194,7 @@ section {
 
 .section-speakers {
     background-color: #fff;
+    height: auto;
 }
 
 .section-speakers h2 {
@@ -205,13 +206,13 @@ section {
     padding:0;
     margin:0;
     font-size: 0;
-    margin-left:-130px;
+    margin-left:-30px;
 }
 
 .section-speakers ul.speakers li {
-    width: 25%;
+    width: 20%;
     display: inline-block;
-    padding-left: 130px;
+    padding-left: 30px;
     vertical-align: top;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -524,10 +525,12 @@ footer p {
     }
 
     .section-speakers ul.speakers {
-        margin-left: -30px;
+        margin-top: 35px;
+        margin-left: -10px;
     }
 
     .section-speakers ul.speakers li {
+        width: 25%;
         padding-left: 30px;
     }
 
